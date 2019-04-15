@@ -4,5 +4,7 @@
     <string name="animation_7_1_1">透明度动画</string>
     <string name="animation_7_1_2">旋转动画</string>
     <string name="animation_7_1_3">位移动画</string>
+    <string name="animation_7_1_4">缩放动画</string>
+    <string name="animation_7_1_5">动画集合</string>
 
 </resources>

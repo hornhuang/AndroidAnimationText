@@ -44,6 +44,24 @@
                 android:text="@string/animation_7_1_3"
                 android:textSize="25sp"/>
 
+            <Button
+                android:id="@+id/animation_7_1_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/animation_7_1_4"
+                android:textSize="25sp"/>
+
+            <Button
+                android:id="@+id/animation_7_1_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/animation_7_1_5"
+                android:textSize="25sp"/>
+
         </LinearLayout>
 
     </ScrollView>
