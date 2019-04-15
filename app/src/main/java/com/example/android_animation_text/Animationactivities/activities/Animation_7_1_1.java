@@ -7,6 +7,9 @@ import android.widget.ImageView;
 
 import com.example.android_animation_text.R;
 
+/**
+ * 透明度
+ */
 public class Animation_7_1_1 extends AppCompatActivity {
 
     private ImageView girlImage;
