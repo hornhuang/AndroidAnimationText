@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".activies.MainActivity">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activies.MainActivity">
 
-    <ScrollView
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <LinearLayout
+        <Button
+            android:id="@+id/animation_7_1_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@color/blanchedalmond"
+            android:text="@string/animation_7_1_1"
+            android:textSize="25sp" />
 
-            <Button
-                android:id="@+id/animation_7_1_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@color/colorPrimary"
-                android:text="@string/animation_7_1_1"
-                android:textSize="25sp"/>
+        <Button
+            android:id="@+id/animation_7_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:background="@color/darksalmon"
+            android:text="@string/animation_7_1_2"
+            android:textSize="25sp" />
 
-            <Button
-                android:id="@+id/animation_7_1_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@color/colorPrimary"
-                android:text="@string/animation_7_1_2"
-                android:textSize="25sp"/>
+        <!--<Button-->
+        <!--android:id="@+id/animation_7_1_3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="@string/animation_7_1_3"-->
+        <!--android:textSize="25sp"/>-->
 
-            <Button
-                android:id="@+id/animation_7_1_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@color/colorPrimary"
-                android:text="@string/animation_7_1_3"
-                android:textSize="25sp"/>
+        <!--<Button-->
+        <!--android:id="@+id/animation_7_1_4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="@string/animation_7_1_4"-->
+        <!--android:textSize="25sp"/>-->
 
-            <Button
-                android:id="@+id/animation_7_1_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@color/colorPrimary"
-                android:text="@string/animation_7_1_4"
-                android:textSize="25sp"/>
+        <!--<Button-->
+        <!--android:id="@+id/animation_7_1_5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:text="@string/animation_7_1_5"-->
+        <!--android:textSize="25sp"/>-->
 
-            <Button
-                android:id="@+id/animation_7_1_5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:background="@color/colorPrimary"
-                android:text="@string/animation_7_1_5"
-                android:textSize="25sp"/>
+    </LinearLayout>
 
-        </LinearLayout>
-
-    </ScrollView>
+</ScrollView>
 
 </LinearLayout>
