@@ -1,4 +1,4 @@
-package com.example.android_animation_text.SecondAnimatorActivities;
+package com.example.android_animation_text.SecondAnimatorActivities.PropertyValuesHolder_7_2_2;
 
 import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;

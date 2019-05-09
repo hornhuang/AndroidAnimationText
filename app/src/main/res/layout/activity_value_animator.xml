@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".SecondAnimatorActivities.ValueAnimator">
+    tools:context=".SecondAnimatorActivities.ViewAnimator_7_2_3.ValueAnimator7_2_3">
 
     <ImageView
         android:id="@+id/image_view"

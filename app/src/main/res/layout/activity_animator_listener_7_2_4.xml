@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".SecondAnimatorActivities.PropertyValuesHolder_7_2_2.PropertyValuesHolder_7_2_2Activity">
+    tools:context=".SecondAnimatorActivities.AnimatorListener_7_2_4">
 
     <ImageView
-        android:id="@+id/property_values_holder"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:src="@drawable/fish_2_long_width"
+        android:id="@+id/image_view"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/text"
         android:scaleType="fitXY"/>
 
 </LinearLayout>

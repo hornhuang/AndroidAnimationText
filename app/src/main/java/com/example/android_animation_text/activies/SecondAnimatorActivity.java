@@ -1,18 +1,17 @@
 package com.example.android_animation_text.activies;
 
-import android.animation.PropertyValuesHolder;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.android_animation_text.Animationactivities.activities.Animation_7_1_2;
 import com.example.android_animation_text.Animationactivities.activities.Animation_7_1_3;
 import com.example.android_animation_text.Animationactivities.activities.Animation_7_1_4;
 import com.example.android_animation_text.Animationactivities.activities.Animation_7_1_5;
 import com.example.android_animation_text.R;
 import com.example.android_animation_text.SecondAnimatorActivities.ObjectAnimator_7_2_1.ObjectAnimator_7_2_1;
-import com.example.android_animation_text.SecondAnimatorActivities.PropertyValuesHolder_7_2_2Activity;
+import com.example.android_animation_text.SecondAnimatorActivities.PropertyValuesHolder_7_2_2.PropertyValuesHolder_7_2_2Activity;
+import com.example.android_animation_text.SecondAnimatorActivities.ViewAnimator_7_2_3.ValueAnimator7_2_3;
 
 public class SecondAnimatorActivity extends BaseActivity {
 
@@ -27,8 +26,8 @@ public class SecondAnimatorActivity extends BaseActivity {
         Button button02 = findViewById(R.id.animation_7_1_2);
         button02.setOnClickListener(this);
 
-//        Button button03 = findViewById(R.id.animation_7_1_3);
-//        button03.setOnClickListener(this);
+        Button button03 = findViewById(R.id.animation_7_1_3);
+        button03.setOnClickListener(this);
 //
 //        Button button04 = findViewById(R.id.animation_7_1_4);
 //        button04.setOnClickListener(this);
@@ -50,7 +49,7 @@ public class SecondAnimatorActivity extends BaseActivity {
                 break;
 
             case R.id.animation_7_1_3:
-                startActivity(new Intent(SecondAnimatorActivity.this, Animation_7_1_3.class));
+                startActivity(new Intent(SecondAnimatorActivity.this, ValueAnimator7_2_3.class));
                 break;
 
             case R.id.animation_7_1_4:
